@@ -1,0 +1,17 @@
+{
+  "name": "mediatr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "reflect-metadata": "^0.2.1",
+    "ts-node": "^10.9.2",
+    "tsyringe": "^4.8.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {}
+}
